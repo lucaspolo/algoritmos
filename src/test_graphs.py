@@ -38,4 +38,4 @@ class TestTopologicalSorter:
     ):
         ordered = topological_sorter(g)
 
-        assert ordered == [3, 2, 1, 4]
+        assert ordered == [3, 1, 2, 4]
